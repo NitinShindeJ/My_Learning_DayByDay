@@ -100,4 +100,9 @@ Add the file name & directory name into this file which you want to ignore while
 26. Difference between two file [compression of two file]
 + $ git diff <file name>
 
-27.
+27. Update existing git remote URL
++ $ git remote set-url origin new.git.url/here
+
+28. How to update manually deleted files
++ $ git add -u
++ $ git commit -m "Manually deleted files"
